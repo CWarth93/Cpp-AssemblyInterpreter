@@ -1,0 +1,12 @@
+print "Calculation begins"
+mov ax, 25
+div ax, 6
+print ax
+add ax, 1
+push ax
+
+mov ax, .1234e+2
+pop cx
+mul cx, ax
+print cx
+print "Calculation complete"
